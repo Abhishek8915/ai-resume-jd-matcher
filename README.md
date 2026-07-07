@@ -150,40 +150,6 @@ Open your browser and navigate to `http://localhost:3000` to interact with the s
 
 ---
 
-## 🚀 Deployment to Vercel (Under 5 Minutes)
-
-Vercel provides native, instant hosting for full-stack Node.js environments. Follow these simple steps to deploy this repository in under 5 minutes without any manual infrastructure provisioning:
-
-### Option A: Deployment via Vercel CLI
-1. Install the Vercel CLI:
-   ```bash
-   npm install -g vercel
-   ```
-2. Log in and deploy from your project root:
-   ```bash
-   vercel login
-   vercel
-   ```
-3. Provide your environment variable during setup or in the Vercel dashboard:
-   - Key: `GEMINI_API_KEY`
-   - Value: `(Your API Key from Google AI Studio)`
-4. Set the Build Command in Vercel project settings:
-   - Build Command: `npm run build`
-   - Output Directory: `dist`
-5. Deploy to production:
-   ```bash
-   vercel --prod
-   ```
-
-### Option B: Deployment via GitHub Integration
-1. Push this codebase to your personal GitHub repository.
-2. Visit the [Vercel Dashboard](https://vercel.com/) and click **Add New Project**.
-3. Import your GitHub repository.
-4. Under **Environment Variables**, add:
-   - `GEMINI_API_KEY` = `(Your Google AI Studio key)`
-5. Click **Deploy**. Vercel will automatically provision serverless compute functions, build the Vite frontend, and configure routing with no extra work!
-
----
 
 ## 🚀 Future Enhancements (Post-MVP Roadmap)
 
