@@ -1,0 +1,6 @@
+{
+  "name": "AI Resume Matcher",
+  "description": "An AI-powered tool that matches resumes with job descriptions, extracts skills, and calculates programmatic matching scores.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
