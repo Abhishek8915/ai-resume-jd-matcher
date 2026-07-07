@@ -234,3 +234,4 @@ Resume parsing is handled on the backend, enabling support for both uploaded PDF
 - The deployed application is connected to the GitHub repository and supports automatic redeployment after new commits.
 - The application has been validated using both manually entered resume text and uploaded PDF resumes.
 - For local execution, configure a valid Gemini API key before running the application.
+- If the AI service is temporarily unavailable due to external API rate limits or service availability, please try again after a short interval. If the issue persists or any functionality does not work as expected, please feel free to contact me. I will be happy to investigate, make the necessary changes (including switching to an alternative supported model if required), and redeploy the application promptly.
