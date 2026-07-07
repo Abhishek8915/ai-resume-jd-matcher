@@ -69,7 +69,7 @@ Provide your assessment strictly conforming to the JSON schema output requiremen
  
     try {
       const response = await ai.models.generateContent({
-        model: 'gemini-3.5-flash',
+        model: 'gemini-2.5-flash',
         contents: prompt,
         config: {
           systemInstruction,
