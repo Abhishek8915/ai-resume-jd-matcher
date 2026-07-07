@@ -225,7 +225,6 @@ Resume parsing is handled on the backend, enabling support for both uploaded PDF
 - Vector database integration for semantic candidate search
 - Cover letter generation
 - Resume history and comparison
-- Multi-language resume support
 - Authentication and recruiter dashboard
 
 ---
