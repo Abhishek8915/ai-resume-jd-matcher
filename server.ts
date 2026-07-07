@@ -11,6 +11,8 @@ import { createRequire } from 'module';
 
 const require = createRequire(import.meta.url);
 const pdf = require('pdf-parse');
+// @ts-ignore
+// const { PDFParse } = require('pdf-parse');
 // console.log("PDF PARSER EXPORT:", pdf);
 // console.log("========== PDF MODULE ==========");
 // console.dir(pdf, { depth: null });
